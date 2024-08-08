@@ -1,0 +1,7 @@
+footer {
+  height: 100px;
+  width: 100px;
+  background: red;
+  border: thin black dashed;
+  padding: 2em;
+}
