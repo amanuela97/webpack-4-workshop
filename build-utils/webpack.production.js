@@ -5,7 +5,13 @@ module.exports = () => ({
   },
   module: {
     rules: [
-      { test: /\.css$/, use: [MiniCssExtractplugin.loader, "css-loader"] },
+      {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractplugin.loader, // Extracts CSS into separate files
+          "css-loader",
+        ],
+      },
     ],
   },
   plugins: [new MiniCssExtractplugin()],
