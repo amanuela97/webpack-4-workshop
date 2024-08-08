@@ -1,5 +1,5 @@
 module.exports = () => ({
-  devtool: "source-map",
+  devtool: "source-map", // sourcemap helps with debugging and error tracking in devtool sources
   module: {
     rules: [
       {
